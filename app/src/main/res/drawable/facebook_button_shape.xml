@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <!-- Drop Shadow Stack -->
+    <item>
+        <shape android:shape="rectangle">
+            <padding
+                android:bottom="1dp"
+                android:left="1dp"
+                android:right="1dp"
+                android:top="1dp" />
+            <gradient
+                android:startColor="@color/blue_theme_color"
+
+                android:endColor="@color/amber_theme_color"
+                android:angle="0" />
+            <!--<solid android:color="#003257A5" />-->
+
+            <corners android:radius="45dp" />
+        </shape>
+    </item>
+    <item>
+        <shape android:shape="rectangle">
+            <padding
+                android:bottom="1dp"
+                android:left="1dp"
+                android:right="1dp"
+                android:top="1dp" />
+            <gradient
+                android:startColor="@color/blue_theme_color"
+
+                android:endColor="@color/amber_theme_color"
+                android:angle="0" />
+            <!--<solid android:color="#103257A5" />-->
+
+            <corners android:radius="45dp" />
+        </shape>
+    </item>
+    <item>
+        <shape android:shape="rectangle">
+            <padding
+                android:bottom="1dp"
+                android:left="1dp"
+                android:right="1dp"
+                android:top="1dp" />
+            <gradient
+                android:startColor="@color/blue_theme_color"
+
+                android:endColor="@color/amber_theme_color"
+                android:angle="0" />
+            <!--<solid android:color="#203257A5" />-->
+
+            <corners android:radius="45dp" />
+        </shape>
+    </item>
+    <item>
+        <shape android:shape="rectangle">
+            <padding
+                android:bottom="1dp"
+                android:left="1dp"
+                android:right="1dp"
+                android:top="1dp" />
+            <gradient
+                android:startColor="@color/blue_theme_color"
+
+                android:endColor="@color/amber_theme_color"
+                android:angle="0" />
+            <!--<solid android:color="#303257A5" />-->
+
+            <corners android:radius="45dp" />
+        </shape>
+    </item>
+
+
+    <!-- Background -->
+    <item>
+        <shape android:shape="rectangle">
+            <gradient
+                android:startColor="@color/blue_theme_color"
+
+                android:endColor="@color/amber_theme_color"
+                android:angle="0" />
+
+
+            <corners android:radius="45dp" />
+        </shape>
+    </item>
+
+</layer-list>

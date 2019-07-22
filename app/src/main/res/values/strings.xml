@@ -1,0 +1,35 @@
+<resources>
+
+    <string name="facebook_app_id">1726736034214210</string>
+    <string name="fb_login_protocol_scheme">fb1726736034214210</string>
+    <string name="app_name">Picture Your Travel</string>
+    <string name="app_short_name">PYT</string>
+    <string name="picture_plan_post">Picture, Plan, Post</string>
+    <string name="continue_with_facebook">CONTINUE WITH FACEBOOK</string>
+    <string name="continue_with_google">CONTINUE WITH GOOGLE</string>
+    <string name="create_account">CREATE ACCOUNT</string>
+    <string name="login">Log In</string>
+    <string name="email_address">Email Address</string>
+    <string name="password">Password</string>
+    <string name="show">Show</string>
+    <string name="hide">Hide</string>
+    <string name="first_name">First Name</string>
+    <string name="last_name">Last Name</string>
+    <string name="next">Next</string>
+    <string name="verify_email">Verify Email</string>
+    <string name="get_started">Get Started</string>
+    <string name="blog_link">Blog Profile Link</string>
+    <string name="bio">Bio</string>
+    <string name="choose_interest">Choose Interest</string>
+    <string name="choose_interest_desp">You can select only three Interest</string>
+    <string name="create_password">Create Password</string>
+    <string name="password_dscp">Your password must include at least one symbol and be 8 or more characters long.</string>
+    <string name="alert">Alert</string>
+    <string name="okay">Ok</string>
+    <string name="cancel">Cancel</string>
+    <string name="forgot_pswd">Forgot Password?</string>
+    <string name="verify_header">Verify Your Email Address</string>
+    <string name="verify_desp">We are glad to have you as a member of PYT. Kindly click on below button to verify your Email.</string>
+
+    <string name="serverClientId">630913578233-4vsohbgunor07mu6d9clisuc8d2u67r6.apps.googleusercontent.com</string>
+</resources>

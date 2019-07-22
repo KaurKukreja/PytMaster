@@ -1,0 +1,71 @@
+{
+  "project_info": {
+    "project_number": "630913578233",
+    "firebase_url": "https://sylvan-terra-181305.firebaseio.com",
+    "project_id": "sylvan-terra-181305",
+    "storage_bucket": "sylvan-terra-181305.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:630913578233:android:8e0773164b7e1570",
+        "android_client_info": {
+          "package_name": "com.pictureyourtravel.pyt"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "630913578233-j55bsr96pj6bge26kcab3trjfs7a2tta.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.pictureyourtravel.pyt",
+            "certificate_hash": "587122951d9e56885d2da526da24539eb6cbf135"
+          }
+        },
+        {
+          "client_id": "630913578233-o7op7qq05k2ml9pkl9kd12kr0fi678f0.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.pictureyourtravel.pyt",
+            "certificate_hash": "3eeb396444c7850b2d3ce11d7abd9f70a6d06409"
+          }
+        },
+        {
+          "client_id": "630913578233-67p5rkcmul7ouuj11935bt4rvdsf6vsr.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.pictureyourtravel.pyt",
+            "certificate_hash": "82a5fd28525c97523147315101ba853cc4e56399"
+          }
+        },
+        {
+          "client_id": "630913578233-4vsohbgunor07mu6d9clisuc8d2u67r6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBAtVwGudNcI_Av7e2yqVKLGLHj-0X33NM"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "630913578233-4vsohbgunor07mu6d9clisuc8d2u67r6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:background="@drawable/dialog_background_inset">
+
+
+        <LinearLayout
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+
+            <TextView
+                android:visibility="visible"
+                android:id="@+id/txt_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:layout_marginTop="@dimen/_15sdp"
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:text="@string/alert"/>
+
+            <TextView
+                android:id="@+id/txt_msg"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textColor="@color/black"
+                android:layout_marginLeft="@dimen/_15sdp"
+                android:layout_marginTop="@dimen/_5sdp"
+                android:layout_marginRight="@dimen/_15sdp"
+                android:textSize="15sp"
+
+                android:gravity="center"
+                />
+
+        </LinearLayout>
+        <!--btn save-->
+        <View
+            android:layout_marginTop="@dimen/_15sdp"
+            android:layout_width="match_parent"
+            android:background="#30b3b3b3"
+            android:layout_height="@dimen/_1sdp"
+            />
+        <LinearLayout
+            android:layout_width="@dimen/_250sdp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:paddingRight="10dp"
+            android:paddingLeft="10dp"
+            android:paddingTop="10dp"
+            android:paddingBottom="5dp"
+            android:orientation="horizontal"
+            >
+
+            <TextView
+                android:visibility="visible"
+                android:id="@+id/rel_vw_save_details"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:text="@string/okay"
+                android:gravity="center"
+                android:textColor="@color/alert_ok_button_color"
+                android:textSize="18sp"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:visibility="gone"
+                android:layout_centerInParent="true"
+                android:id="@+id/rel_cancel"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/cancel"
+                android:gravity="center"
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                android:textStyle="bold"/>
+
+        </LinearLayout>
+
+
+</LinearLayout>

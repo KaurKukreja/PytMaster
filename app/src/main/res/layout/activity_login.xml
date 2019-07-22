@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:background="@color/white">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/_15sdp"
+        android:layout_marginRight="@dimen/_15sdp">
+
+        <RelativeLayout
+            android:id="@+id/back_rl"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="@dimen/_20sdp"
+            android:paddingRight="@dimen/_50sdp"
+            android:paddingBottom="@dimen/_15sdp">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/back" />
+
+
+        </RelativeLayout>
+
+        <RelativeLayout
+
+            android:id="@+id/forget_pswd_fl"
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/back_rl"
+            android:orientation="horizontal">
+        <TextView
+            android:id="@+id/login_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+             android:layout_alignParentLeft="true"
+            android:text="@string/login"
+            android:textColor="@color/black"
+            android:textSize="@dimen/_18ssp"
+            />
+       <TextView
+            android:id="@+id/forget_pswd_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+           android:layout_alignParentRight="true"
+            android:text="@string/forgot_pswd"
+            android:textColor="@color/amber_theme_color"
+            android:textSize="@dimen/_15ssp"
+            />
+
+        </RelativeLayout>
+        <TextView
+            android:id="@+id/email_login_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/forget_pswd_fl"
+            android:layout_marginTop="@dimen/_40sdp"
+            android:text="@string/email_address"
+            android:textColor="@color/black"
+            android:textSize="@dimen/_12ssp"
+             />
+
+        <EditText
+            android:layout_marginTop="@dimen/_5sdp"
+            android:id="@+id/email_login_et"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/email_login_tv"
+            android:singleLine="true"
+            android:textSize="@dimen/_15ssp"
+            android:hint="abc@gmail.com"
+            android:imeOptions="actionNext"
+            android:textColorHint="@color/text_color"
+            android:textColor="@color/black"
+            android:backgroundTint="@android:color/transparent" />
+
+        <View
+            android:id="@+id/email_view"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_1sdp"
+            android:layout_below="@id/email_login_et"
+            android:background="@color/blue_theme_color" />
+
+        <FrameLayout
+            android:layout_marginTop="@dimen/_40sdp"
+            android:id="@+id/pswd_ll"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/email_view"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/pswd_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/password"
+                android:textColor="@color/black"
+                android:textSize="@dimen/_12ssp"
+                 />
+
+            <TextView
+                android:id="@+id/show_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/email_et"
+                android:layout_gravity="end"
+                android:gravity="center_vertical"
+                android:text="@string/show"
+                android:textColor="@color/black"
+                android:textSize="@dimen/_9ssp"
+               />
+        </FrameLayout>
+
+        <EditText
+            android:id="@+id/pswd_et"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/pswd_ll"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_marginStart="0dp"
+            android:layout_marginLeft="0dp"
+
+            android:singleLine="true"
+            android:imeOptions="actionDone"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:backgroundTint="@android:color/transparent"
+
+            android:textColor="@color/black"
+            android:textSize="@dimen/_15ssp"
+            />
+
+
+        <View
+            android:id="@+id/pswd_view"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_1sdp"
+            android:layout_below="@id/pswd_et"
+            android:background="@color/text_color" />
+
+    </RelativeLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_70sdp"
+        android:layout_alignParentBottom="true"
+        android:background="@color/blue_theme_color"
+        android:gravity="center"
+        android:id="@+id/login_bottom"
+        android:text="@string/login"
+        android:textColor="@color/white"
+        android:textSize="@dimen/_15ssp" />
+
+
+</RelativeLayout>
+

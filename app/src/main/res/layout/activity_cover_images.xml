@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".ui.standard_signup_third_screen.CoverImagesActivity">
+
+    <RelativeLayout
+        android:layout_marginLeft="@dimen/_15sdp"
+        android:layout_marginRight="@dimen/_15sdp"
+        android:id="@+id/close_rl"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="@dimen/_20sdp"
+        android:paddingRight="@dimen/_50sdp"
+        android:paddingBottom="@dimen/_15sdp">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/close" />
+
+
+    </RelativeLayout>
+
+
+    <TextView
+        android:id="@+id/heading_cover_picture"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/close_rl"
+        android:text="Choose Cover Picture"
+        android:textColor="@color/black"
+        android:textSize="@dimen/_18ssp"
+        android:layout_marginLeft="@dimen/_15sdp"
+        android:layout_marginRight="@dimen/_15sdp"/>
+
+    <androidx.recyclerview.widget.RecyclerView
+
+        android:id="@+id/cover_pic_rv"
+        android:layout_below="@id/heading_cover_picture"
+        android:layout_width="wrap_content"
+        android:layout_marginLeft="@dimen/_5sdp"
+        android:layout_marginRight="@dimen/_5sdp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_20sdp">
+
+    </androidx.recyclerview.widget.RecyclerView>
+</RelativeLayout>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#ffffff</color>
+    <color name="colorPrimaryDark">#ffffff</color>
+    <color name="colorAccent">#ffffff</color>
+    <color name="white">#ffffff</color>
+    <color name="black">#000000</color>
+    <color name="text_color">#bbbbbb</color>
+    <color name="blue_theme_color">#1c4261</color>
+    <color name="amber_theme_color">#ff5050</color>
+    <color name="transparent">#00000000</color>
+    <color name ="alert_ok_button_color">#76B4FC</color>
+
+
+
+
+</resources>

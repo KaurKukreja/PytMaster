@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".ui.standard_signup_fourth_screen.StandardSignupFourthActivity">
+
+
+
+
+
+
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_15sdp"
+            android:layout_marginRight="@dimen/_15sdp">
+
+            <RelativeLayout
+                android:id="@+id/back_rl"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="@dimen/_20sdp"
+                android:paddingRight="@dimen/_50sdp"
+                android:paddingBottom="@dimen/_15sdp">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/back" />
+
+
+            </RelativeLayout>
+
+
+            <TextView
+                android:id="@+id/heading_fourth_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/back_rl"
+                android:text="Tell Us Something About YourSelf "
+                android:textColor="@color/black"
+                android:textSize="@dimen/_18ssp"
+                android:textStyle="bold" />
+
+
+            <TextView
+                android:id="@+id/first_name_fourth_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/heading_fourth_tv"
+                android:layout_marginTop="@dimen/_40sdp"
+                android:text="@string/blog_link"
+                android:textColor="@color/black"
+                android:textSize="@dimen/_12ssp"
+                />
+
+            <EditText
+                android:layout_marginTop="@dimen/_5sdp"
+                android:id="@+id/bio_link_fourth_et"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/first_name_fourth_tv"
+                android:textStyle="bold"
+                android:singleLine="true"
+                android:imeOptions="actionNext"
+                android:textSize="@dimen/_16ssp"
+                android:hint="eg. www.blogxyz.com/"
+                android:textColorHint="@color/text_color"
+                android:textColor="@color/black"
+                android:backgroundTint="@android:color/transparent" />
+
+            <View
+                android:id="@+id/bio_link_view"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_1sdp"
+                android:layout_below="@id/bio_link_fourth_et"
+                android:background="@color/text_color" />
+
+            <TextView
+                android:id="@+id/bio_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/bio_link_view"
+                android:layout_marginTop="@dimen/_20sdp"
+                android:text="@string/bio"
+                android:textColor="@color/black"
+                android:textSize="@dimen/_12ssp"
+                />
+
+            <EditText
+                android:layout_marginTop="@dimen/_5sdp"
+                android:id="@+id/bio_desp_fourth_et"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/bio_tv"
+                android:textStyle="bold"
+                android:singleLine="true"
+                android:imeOptions="actionDone"
+                android:textSize="@dimen/_16ssp"
+                android:hint="Describe Yourself"
+                android:textColorHint="@color/text_color"
+                android:textColor="@color/black"
+                android:backgroundTint="@android:color/transparent" />
+
+            <View
+                android:id="@+id/bio_desp_view"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_1sdp"
+                android:layout_below="@id/bio_desp_fourth_et"
+                android:background="@color/text_color" />
+
+
+            <TextView
+                android:id="@+id/choose_interest_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/bio_desp_view"
+                android:layout_marginTop="@dimen/_20sdp"
+                android:text="@string/choose_interest"
+                android:textColor="@color/black"
+                android:textSize="@dimen/_16ssp"
+                />
+
+            <TextView
+                android:id="@+id/choose_interest_desp_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/choose_interest_tv"
+                android:text="@string/choose_interest_desp"
+                android:textColor="@color/text_color"
+                android:textSize="@dimen/_12ssp"
+                />
+
+
+            <!--<android.support.design.chip.Chip-->
+                <!--xmlns:android="http://schemas.android.com/apk/res/android"-->
+                <!--style="@style/myStyle"-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content" />-->
+
+            <!--<android.support.design.chip.ChipGroup-->
+                <!--android:layout_marginTop="@dimen/_20sdp"-->
+
+                <!--android:id="@+id/interest_group"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_below="@id/choose_interest_desp_tv"-->
+                <!--/>-->
+<!--<androidx.recyclerview.widget.RecyclerView-->
+    <!--android:layout_marginTop="@dimen/_20sdp"-->
+    <!--android:id="@+id/interest_chips_rc_view"-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_below="@id/choose_interest_desp_tv"-->
+    <!--android:layout_height="wrap_content">-->
+
+<!--</androidx.recyclerview.widget.RecyclerView>-->
+
+        </RelativeLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_60sdp"
+            android:layout_alignParentBottom="true"
+            android:background="@color/blue_theme_color"
+            android:gravity="center"
+            android:text="@string/get_started"
+            android:id="@+id/get_started_tv"
+            android:textColor="@color/white"
+            android:textSize="@dimen/_15ssp" />
+
+
+
+
+
+
+
+</RelativeLayout>

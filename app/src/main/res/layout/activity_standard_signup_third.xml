@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".ui.standard_signup_third_screen.StandardSignupThirdActivity">
+
+
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+
+            <RelativeLayout
+                android:layout_marginLeft="@dimen/_15sdp"
+                android:layout_marginRight="@dimen/_15sdp"
+                android:id="@+id/back_rl"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="@dimen/_20sdp"
+                android:paddingRight="@dimen/_50sdp"
+                android:paddingBottom="@dimen/_15sdp">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/back" />
+
+
+            </RelativeLayout>
+
+
+            <TextView
+                android:id="@+id/heading_third_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/back_rl"
+                android:text="Upload Your Profile &amp; Cover Photo"
+                android:textColor="@color/black"
+                android:textSize="@dimen/_18ssp"
+                android:layout_marginLeft="@dimen/_15sdp"
+                android:layout_marginRight="@dimen/_15sdp"/>
+
+
+            <RelativeLayout
+                android:layout_marginTop="@dimen/_20sdp"
+                android:id="@+id/pictures_rl"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_330sdp"
+                android:layout_below="@id/heading_third_tv">
+
+                <RelativeLayout
+                    android:id="@+id/cover_pic_rl"
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+                        android:src="@color/text_color"
+                        android:id="@+id/cover_pic_iv"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/_320sdp"
+                        android:background="#f0f0f0"
+                        android:scaleType="centerCrop" />
+
+                    <!--<TextView-->
+                        <!--android:id="@+id/add_cover_pic_tv"-->
+                        <!--android:layout_width="wrap_content"-->
+                        <!--android:layout_height="wrap_content"-->
+                        <!--android:layout_centerHorizontal="true"-->
+                        <!--android:layout_marginTop="@dimen/_100sdp"-->
+                        <!--android:text="Add Cover Picture"-->
+                        <!--android:textColor="@color/text_color"-->
+                        <!--android:visibility="gone" />-->
+
+                    <ImageView
+                        android:id="@+id/camera_img_on_cover_pic"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:padding="@dimen/_15sdp"
+                        android:src="@drawable/camera_white" />
+                </RelativeLayout>
+
+                <RelativeLayout
+
+                    android:id="@+id/profile_pic_rl"
+                    android:layout_width="@dimen/_80sdp"
+                    android:layout_height="@dimen/_80sdp"
+                    android:padding="@dimen/_2sdp"
+                    android:layout_marginLeft="@dimen/_15sdp"
+                    android:layout_marginTop="@dimen/_160sdp">
+
+                    <ImageView
+                        android:layout_centerInParent="true"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:scaleType="fitXY"
+                        android:padding="@dimen/_2sdp"
+                        android:id="@+id/profile_image_view"
+                        android:src="@drawable/circular_shape_img"/>
+
+                    <ImageView
+                        android:id="@+id/camera2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_alignParentBottom="true"
+                        android:layout_marginRight="@dimen/_3sdp"
+                       android:layout_marginBottom="@dimen/_3sdp"
+                        android:src="@drawable/cameraprofile" />
+                </RelativeLayout>
+
+            </RelativeLayout>
+
+        </RelativeLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_60sdp"
+            android:layout_alignParentBottom="true"
+            android:background="@color/blue_theme_color"
+            android:gravity="center"
+            android:text="@string/next"
+            android:id="@+id/next_tv_third"
+            android:textColor="@color/white"
+            android:textSize="@dimen/_15ssp" />
+
+
+
+
+
+
+
+
+
+</RelativeLayout>
