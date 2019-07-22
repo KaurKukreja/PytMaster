@@ -219,6 +219,8 @@ public class TutorialActivity extends Activity implements SignupMvpView {
         callbackManager.onActivityResult(requestCode, resultCode, data);
 
 
+
+
         if (resultCode == Activity.RESULT_OK) {
             if (requestCode == RC_SIGN_IN) {
                 Task<GoogleSignInAccount> task = GoogleSignIn.getSignedInAccountFromIntent(data);
